@@ -34,20 +34,21 @@ public class PistolasImperio {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int opcion;
-        do {
-            mostrarMenu();
-            opcion = obtenerOpcion();
-            ejecutarOpcion(opcion);
-        } while (opcion != 4);
-        System.out.println("¡Gloria al Imperio! Saliendo del sistema...");
+        menu();
+    }
+
+     /**
+    * Ejecuta el menú principal del programa y gestiona la interacción con el usuario.
+    */
+    public static void menu() {
+        // TODO: Implementar el código para gestionar la interacción con el usuario.
     }
 
     /**
      * Muestra el menú principal con las opciones disponibles.
      */
-    private static void mostrarMenu() {
-        // TODO: Implementar el código para mostrar el menú en pantalla.
+    private static void mostrarOpciones() {
+        // TODO: Implementar el código para mostrar las opciones del menú en pantalla.
     }
 
     /**
@@ -106,5 +107,6 @@ public class PistolasImperio {
 
 ---
 ### Material de Apoyo
-[Apuntes Java Jesús](https://github.com/JessusTM/ICC490-1-POO/tree/main/1.%20Apuntes)<br>
+[Apuntes Java Jesús](https://github.com/JessusTM/ICC490-1-POO#)
+<br>
 [Generar menú en Java con do-while](https://www.youtube.com/watch?v=D-iUim3WLK0&t=53s&ab_channel=SinRuedaTecnol%C3%B3gica)
