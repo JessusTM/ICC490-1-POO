@@ -188,6 +188,46 @@ public class NaveHiperEspacio {
     public static double determinante(double[][] matriz) {
         // TODO: Implementar el cálculo del determinante.
     }
+
+    /**
+     * Suma dos matrices 2x2.
+     * TODO: Sumar elemento a elemento y retornar la matriz resultante.
+     */
+    public static double[][] sumaMatrices(double[][] A, double[][] B) {
+        // TODO: Implementar la suma de dos matrices.
+    }
+
+    /**
+     * Resta dos matrices 2x2.
+     * TODO: Restar elemento a elemento y retornar la matriz resultante.
+     */
+    public static double[][] restaMatrices(double[][] A, double[][] B) {
+        // TODO: Implementar la resta de dos matrices.
+    }
+
+    /**
+     * Multiplica dos matrices 2x2.
+     * TODO: Calcular la suma de productos correspondiente a cada elemento y retornar la matriz resultante.
+     */
+    public static double[][] multiplicacionMatrices(double[][] A, double[][] B) {
+        // TODO: Implementar la multiplicación de dos matrices.
+    }
+
+    /**
+     * Calcula la inversa de una matriz 2x2.
+     * TODO: Calcular el determinante; si es 0 retornar null, de lo contrario calcular y retornar la inversa.
+     */
+    public static double[][] inversaMatriz(double[][] A) {
+        // TODO: Implementar el cálculo de la inversa de una matriz.
+    }
+
+    /**
+     * Resuelve la ecuación A * X = B para X, usando la inversa de A.
+     * TODO: Si A no es invertible, retornar null; de lo contrario, multiplicar A^-1 por B y retornar el resultado.
+     */
+    public static double[][] divisionMatrices(double[][] A, double[][] B) {
+        // TODO: Implementar la división de matrices (A^-1 * B).
+    }
 }
 ```
 ---
