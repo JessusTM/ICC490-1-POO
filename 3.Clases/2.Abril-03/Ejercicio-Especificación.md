@@ -192,7 +192,10 @@ public class NaveHiperEspacio {
 ```
 ---
 ### Preguntas
-##### Sea $n$ un número entero mayor que $2$, ¿qué se debería cambiar en el código si las matrices fuesen $n×n$? Fundamente su respuesta.
+Sea $n$ un número entero mayor que $2$: 
+  * ¿qué se debería cambiar en el código si las matrices fuesen $n×n$?
+  * ¿Qué se debería cambiar en el código si las matrices fueran $3x3$? 
+  * ¿Cómo se asegura que el resultado de cada operación es el correcto?
 
 ---
 ### Resultados de Aprendizaje Esperados
