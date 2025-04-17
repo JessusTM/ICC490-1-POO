@@ -4,7 +4,7 @@
 
 Para asegurar que cada nave de la flota imperial realice sus saltos al hiperespacio con la máxima precisión, se debe implementar algoritmos basados en cálculos algebraicos que operan sobre matrices de $2 x 2$. Gracias a estas estructuras, es posible modelar de forma detallada la orientación, posición y la integración de múltiples sistemas de sensores y control. Con ello, no solo se optimizan las maniobras y la estabilidad de la trayectoria, sino que también se garantiza que la nave se mantenga siempre lista para el combate.
 
-Como desarrollador imperial, la misión asignada consiste en diseñar un programa en Java que permita realizar las siguientes operaciones. Para cada operación, el usuario deberá proporcionar la información de de las dos matrices $2 x 2$ en tiempo de ejecución:
+Como desarrollador imperial, la misión asignada consiste en diseñar un programa en Java que permita realizar las operaciones. Para cada operación, el usuario deberá proporcionar la información de de las dos matrices $2 x 2$ en tiempo de ejecución:
 
 ##### 1. Suma de Matrices
 
