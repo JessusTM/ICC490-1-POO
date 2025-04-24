@@ -118,3 +118,26 @@ Una vez implementada la lógica de negocio se deberá generar un archivo de prue
 4. ¿Cómo afectaría el uso de mayúsculas y minúsculas en los nombres de productos al intentar eliminarlos?
 5. ¿Qué debería ocurrir si se aplica un descuento mayor al total acumulado en el carrito?
 
+--- 
+### Sección 2: Extensión de Funcionalidades
+
+Con el objetivo de ampliar la cobertura funcional del sistema y fomentar el desarrollo de pruebas unitarias, se deberá integrar nuevas funcionalidades bajo los mismos criterios de diseño definidos en los requisitos iniciales: 
+  * Uso de una única clase pública. 
+  * Métodos public static. 
+  * Lógica preparada para ser testeada unitariamente.
+
+##### 1. Funcionalidad: Actualizar Precio de un Producto
+Esta funcionalidad permite modificar el precio de un producto previamente agregado al carrito, siempre que dicho producto exista y que el nuevo precio sea válido (no negativo).
+
+##### 2. Funcionalidad: Vaciar el Carrito
+Se propone incluir una operación que elimine todos los productos y sus precios, dejando el carrito en estado inicial.
+
+##### Pruebas 
+| Prueba                               | ¿Qué verifica?                                                                | ¿Por qué tiene valor?                                                                 |
+|--------------------------------------|--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| `testActualizarPrecioProductoExistente`   | Que se actualice correctamente el precio de un producto existente.         | Permite modificar valores sin duplicar entradas ni perder integridad.                |
+| `testActualizarPrecioProductoInexistente` | Que no se actualice el precio si el producto no existe en el carrito.      | Garantiza que la operación solo afecte datos válidos.                                |
+| `testActualizarPrecioNegativo`           | Que no se permita asignar un precio negativo a ningún producto.             | Previene errores lógicos y asegura consistencia en los datos financieros.            |
+| `testVaciarCarritoConProductos`          | Que todos los productos sean eliminados correctamente si el carrito tiene elementos. | Verifica la capacidad del sistema de reiniciarse completamente.                 |
+| `testVaciarCarritoYaVacio`               | Que el vaciado funcione correctamente incluso si el carrito ya está vacío. | Asegura estabilidad ante acciones repetitivas o redundantes.                         |
+
