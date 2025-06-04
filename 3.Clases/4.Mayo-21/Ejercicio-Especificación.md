@@ -5,7 +5,6 @@ Desarrollar una aplicación con ejecución por consola que simule un sistema de 
 ---
 ### Estructura del sistema
 
-La aplicación debe contener al menos **cuatro clases** bien diferenciadas según su responsabilidad:
 
 ##### 1. Clase Inicio
 
@@ -18,7 +17,7 @@ La aplicación debe contener al menos **cuatro clases** bien diferenciadas segú
 * Clase responsable de manejar la interacción con el usuario mediante consola.
 * Funciones:
   * Mostrar menú.
-  * En el proceso de login solicitar usuario y contraseña.
+  * En el login solicitar usuario y contraseña.
   * Delegar la verificación de credenciales a la clase `Login`.
   * Mostrar mensajes adecuados según el resultado.
   * Permitir múltiples intentos.
@@ -36,13 +35,8 @@ La aplicación debe contener al menos **cuatro clases** bien diferenciadas segú
 ---
 ##### 4. DatosLogin
 
-* Clase responsable de acceder al fichero `login.txt` y proporcionar los datos.
+* Clase responsable de leer el fichero `login.txt` y proporcionar los datos.
 * **Formato de fichero:** cada línea contiene un par `usuario;contraseña`.
-
-  ```txt
-  usuario1;clave123
-  usuario2;abc456
-  ```
 * *Funciones:*
   * Leer el fichero de texto una única vez.
   * Almacenar los pares usuario/contraseña en una estructura eficiente.
