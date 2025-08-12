@@ -1,0 +1,143 @@
+/* ===== Ajustes de layout y estilo (sobre Rosé Pine) ===== */
+
+/* Variables útiles (coinciden con tu paleta del color_scheme) */
+:root {
+  --rp-base: #191724;
+  --rp-surface: #1f1d2e;
+  --rp-overlay: #26233a;
+  --rp-text: #e0def4;
+  --rp-foam: #9ccfd8;
+  --rp-iris: #c4a7e7;
+  --rp-rose: #ebbcba;
+}
+
+/* 1) Sidebar más pegado al borde + navegación más compacta */
+.side-bar {
+  padding-left: .75rem !important;
+  /* antes ~1.5rem */
+  padding-right: .75rem !important;
+  background-color: var(--rp-base);
+  border-right: 1px solid var(--rp-overlay);
+}
+
+.nav-list {
+  padding-left: .25rem !important;
+  /* reduce indent general */
+  margin-left: 0 !important;
+}
+
+.nav-list .nav-list-item {
+  margin-left: 0 !important;
+  /* quita “dientes” */
+}
+
+.nav-list a {
+  display: block;
+  padding: .375rem .5rem;
+  /* más compacto */
+  border-radius: .5rem;
+  color: var(--rp-text) !important;
+}
+
+.nav-list a:hover {
+  background: rgba(196, 167, 231, 0.12);
+  /* iris */
+  color: var(--rp-iris) !important;
+}
+
+/* Activo: línea a la izquierda + fondo sutil */
+.nav-list .nav-list-item.active>a {
+  position: relative;
+  color: var(--rp-iris) !important;
+  background: rgba(196, 167, 231, 0.10);
+  font-weight: 700;
+}
+
+.nav-list .nav-list-item.active>a::before {
+  content: "";
+  position: absolute;
+  left: -0.5rem;
+  top: 8px;
+  bottom: 8px;
+  width: 3px;
+  border-radius: 3px;
+  background: var(--rp-iris);
+}
+
+/* 2) Menos “aire” arriba y a los lados del contenido */
+.main {
+  padding-top: 0.75rem !important;
+  /* antes ~2rem */
+}
+
+.main-content {
+  padding: 1.25rem 2rem !important;
+  /* vertical x lateral */
+  max-width: 1100px;
+  /* ancho legible */
+}
+
+/* 3) Header más delgado y limpio */
+.site-header {
+  background: var(--rp-base) !important;
+  border-bottom: 1px solid var(--rp-overlay) !important;
+  padding: .5rem .75rem !important;
+}
+
+.site-title,
+.site-header a {
+  color: var(--rp-text) !important;
+}
+
+/* 4) Tipografía: títulos más lindos, párrafos legibles */
+h1,
+h2,
+h3 {
+  letter-spacing: .2px;
+}
+
+h1 {
+  color: var(--rp-iris) !important;
+  font-weight: 700;
+}
+
+p {
+  color: var(--rp-text);
+  line-height: 1.75;
+}
+
+/* 5) Buscador integrado al estilo */
+.search input[type="text"] {
+  background: var(--rp-surface);
+  border: 1px solid var(--rp-overlay);
+  color: var(--rp-text);
+}
+
+.search input[type="text"]::placeholder {
+  color: #b9b6cf;
+}
+
+/* 6) Tablas y código coherentes */
+table {
+  border-color: var(--rp-overlay);
+}
+
+thead {
+  background: var(--rp-surface);
+}
+
+pre,
+code {
+  background: var(--rp-surface) !important;
+  border: 1px solid var(--rp-overlay) !important;
+  color: var(--rp-text) !important;
+}
+
+/* 7) Pequeños detalles visuales */
+a {
+  color: var(--rp-foam);
+}
+
+a:hover {
+  color: var(--rp-rose);
+}
