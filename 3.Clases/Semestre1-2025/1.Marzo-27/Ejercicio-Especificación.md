@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 ## **Sistema de Gestión de Pistolas – Imperio de Palpatine**  
 
 ### Descripción del ejercicio  
