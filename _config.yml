@@ -6,7 +6,7 @@ lang: es
 search_enabled: true
 plugins:
   - jekyll-remote-theme
-
+color_scheme: rosepine
 nav_order:
   - index.md
   - 1.Apuntes

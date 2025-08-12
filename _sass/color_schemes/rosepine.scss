@@ -1,0 +1,27 @@
+/* _sass/color_schemes/rosepine.scss */
+@import "./color_schemes/dark";
+/* parte del esquema dark del tema */
+
+/* Fondo y texto */
+$body-background-color: #191724; // base
+$body-text-color: #e0def4; // text
+
+/* Enlaces */
+$link-color: #9ccfd8; // foam
+$link-hover-color: #ebbcba; // rose
+
+/* Encabezados */
+$body-heading-color: #c4a7e7; // iris
+
+/* Sidebar / bordes */
+$sidebar-color: #1f1d2e; // surface
+$sidebar-border-color: #26233a; // overlay
+$nav-child-link-color: #e0def4;
+$nav-child-link-hover-color: #c4a7e7;
+$nav-child-link-active-color: #c4a7e7;
+
+/* Tablas y código */
+$table-header-bg-color: #1f1d2e;
+$table-border-color: #26233a;
+$code-background-color: #1f1d2e;
+$code-text-color: #e0def4;
