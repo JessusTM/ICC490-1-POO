@@ -1,0 +1,10 @@
+title: POO
+description: Apuntes, ejercicios, material de apoyo y reportes técnicos para el módulo [ICC490-1] de POO. 
+remote_theme: just-the-docs/just-the-docs
+baseurl: "/ICC490-1-POO"   
+search_enabled: true
+plugins:
+  - jekyll-remote-theme
+aux_links:
+  "Repositorio en GitHub": "https://github.com/JessusTM/ICC490-1-POO"
+
