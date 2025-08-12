@@ -1,0 +1,114 @@
+:root {
+  /* Fondos y textos */
+  --color-background: #191724;
+  --color-background-alt: #1f1d2e;
+  --color-content: #e0def4;
+  --color-muted: #6e6a86;
+
+  /* Colores principales */
+  --color-primary: #c4a7e7;
+  /* Iris */
+  --color-link: #9ccfd8;
+  /* Foam */
+  --color-link-hover: #ebbcba;
+  /* Rose */
+
+  /* Bordes y overlays */
+  --color-border: #26233a;
+  --color-card: #1f1d2e;
+
+  /* Menú lateral */
+  --sidebar-color: #191724;
+  --sidebar-text-color: #e0def4;
+  --sidebar-active-color: #c4a7e7;
+}
+
+/* ===== Modo oscuro forzado ===== */
+.color-scheme-dark {
+  background-color: var(--color-background);
+  color: var(--color-content);
+}
+
+/* ===== Fondo general ===== */
+.color-scheme-dark body {
+  background-color: var(--color-background);
+  color: var(--color-content);
+}
+
+/* ===== Links ===== */
+a {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+/* ===== Barra superior ===== */
+.site-header {
+  background-color: var(--color-background-alt);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-title,
+.site-header a {
+  color: var(--color-content) !important;
+}
+
+/* ===== Sidebar ===== */
+.nav-list,
+.nav-list-item {
+  background-color: var(--sidebar-color);
+  color: var(--sidebar-text-color);
+}
+
+.nav-list a {
+  color: var(--sidebar-text-color);
+}
+
+.nav-list a:hover {
+  color: var(--sidebar-active-color);
+}
+
+.nav-list .nav-list-item.active>a {
+  color: var(--sidebar-active-color);
+  font-weight: bold;
+}
+
+/* ===== Encabezados ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+}
+
+/* ===== Tablas ===== */
+table {
+  border: 1px solid var(--color-border);
+}
+
+thead {
+  background-color: var(--color-background-alt);
+}
+
+th,
+td {
+  border: 1px solid var(--color-border);
+  color: var(--color-content);
+}
+
+/* ===== Bloques de código ===== */
+pre,
+code {
+  background-color: var(--color-background-alt);
+  color: var(--color-content);
+  border: 1px solid var(--color-border);
+}
+
+/* ===== Footer oculto ===== */
+.site-footer {
+  display: none;
+}

@@ -5,6 +5,13 @@ baseurl: "/ICC490-1-POO"
 search_enabled: true
 plugins:
   - jekyll-remote-theme
-aux_links:
-  "Repositorio en GitHub": "https://github.com/JessusTM/ICC490-1-POO"
-
+color_scheme: dark
+footer_content: "" 
+lang: es
+just_the_docs:
+  custom_css:
+    - "assets/css/style.css"
+nav_order:
+  - index.md
+  - 1.Apuntes
+  - 2.Reportes
