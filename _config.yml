@@ -1,17 +1,14 @@
 title: POO
-description: Apuntes, ejercicios, material de apoyo y reportes técnicos para el módulo [ICC490-1] de POO. 
+description: Apuntes, ejercicios, material de apoyo y reportes técnicos para el módulo [ICC490-1] de POO.
 remote_theme: just-the-docs/just-the-docs
-baseurl: "/ICC490-1-POO"   
+baseurl: "/ICC490-1-POO"
+lang: es
 search_enabled: true
 plugins:
   - jekyll-remote-theme
-color_scheme: dark
-footer_content: "" 
-lang: es
-just_the_docs:
-  custom_css:
-    - "assets/css/style.css"
+
 nav_order:
   - index.md
   - 1.Apuntes
   - 2.Reportes
+

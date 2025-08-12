@@ -1,0 +1,100 @@
+/* ===== Paleta Rosé Pine ===== */
+:root {
+  --rp-base: #191724;
+  --rp-surface: #1f1d2e;
+  --rp-overlay: #26233a;
+  --rp-muted: #6e6a86;
+  --rp-subtle: #908caa;
+  --rp-text: #e0def4;
+  --rp-love: #eb6f92;
+  --rp-gold: #f6c177;
+  --rp-rose: #ebbcba;
+  --rp-pine: #31748f;
+  --rp-foam: #9ccfd8;
+  --rp-iris: #c4a7e7;
+}
+
+/* ===== Fondo / texto ===== */
+html,
+body {
+  background-color: var(--rp-base) !important;
+  color: var(--rp-text) !important;
+}
+
+/* ===== Barra superior ===== */
+.site-header {
+  background-color: var(--rp-surface) !important;
+  border-bottom: 1px solid var(--rp-overlay) !important;
+}
+
+.site-title,
+.site-header a {
+  color: var(--rp-text) !important;
+}
+
+/* ===== Sidebar ===== */
+.nav-list,
+.nav-list-item {
+  background-color: var(--rp-base) !important;
+  color: var(--rp-text) !important;
+}
+
+.nav-list a {
+  color: var(--rp-text) !important;
+}
+
+.nav-list a:hover {
+  color: var(--rp-iris) !important;
+}
+
+.nav-list .nav-list-item.active>a {
+  color: var(--rp-iris) !important;
+  font-weight: 700;
+}
+
+/* ===== Links ===== */
+a {
+  color: var(--rp-foam);
+}
+
+a:hover {
+  color: var(--rp-rose);
+}
+
+/* ===== Encabezados ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--rp-iris) !important;
+}
+
+/* ===== Tablas ===== */
+table {
+  border: 1px solid var(--rp-overlay);
+}
+
+thead {
+  background-color: var(--rp-surface);
+}
+
+th,
+td {
+  border: 1px solid var(--rp-overlay);
+  color: var(--rp-text);
+}
+
+/* ===== Código ===== */
+pre,
+code {
+  background: var(--rp-surface) !important;
+  color: var(--rp-text) !important;
+  border: 1px solid var(--rp-overlay) !important;
+}
+
+/* ===== Footer (por si algo cuela) ===== */
+.site-footer {
+  display: none !important;
+}
