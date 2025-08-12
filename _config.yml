@@ -7,8 +7,12 @@ search_enabled: true
 plugins:
   - jekyll-remote-theme
 color_scheme: rosepine
-nav_order:
-  - index.md
-  - 1.Apuntes
-  - 2.Reportes
-
+defaults:
+  - scope:
+      path: "3.Clases"
+      type: "pages"
+    values:
+      nav_exclude: true
+      search_exclude: true
+exclude:
+  - 3.Clases/
